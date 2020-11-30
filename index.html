@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap setup-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <!--FONTS-->
+  </head>
+
+  <!--BODY-->
+
+  <body class="body_bgd">
+    <div id="page_container" class="container-fluid p-0">
+
+      <!-- NAV BAR -->
+
+      <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand"></a>
+          <img id="logo_img"src="logo.png" alt="logo">
+          <div id="image_div"></div>
+        </a>
+      </nav>
+      <!-- API Twitter keys forms -->
+      <div class="row pt-5">
+
+        <div class="col">
+          <!-- empy col -->
+        </div>
+      
+        <div class="col-4" id="twitterKeys_col">
+          <div class=" container d-flex justify-content-right" id="TK_div">
+            <form action="">
+              <div class="form-group row">
+                <label for="key" class="col col-form-label label-col white_txt">Consumer Key</label>
+                <div class="col-6 input-col">
+                  <input type="text" class="form-control" placeholder="Enter Consumer Key" id="TC_key">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="key" class="col col-form-label label-col white_txt">Consumer Secret</label>
+                <div class="col-6 input-col">
+                  <input type="text" class="form-control" placeholder="Enter Consumer Secret" id="TCS_key">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="key" class="col col-form-label label-col white_txt">Access Token</label>
+                <div class="col-6 input-col">
+                  <input type="text" class="form-control" placeholder="Enter Access Token" id="TAT_key">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="key" class="col col-form-label label-col white_txt">Access Token Secret</label>
+                <div class="col-6 input-col">
+                  <input type="text" class="form-control" placeholder="Enter Access Token Secret" id="TATS_key">
+                </div>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button id="twit_submit_btn" type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- prossima-->
+      
+        <div class="col mt-auto">
+          <div class="row d-flex justify-content-center">
+            <label id="next_page_lbl" for="main_page_btn" class="white_txt">Proceed without keys</label>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <button id="main_page_btn" class="btn btn-primary">Next</button>
+          </div>
+        </div>
+
+        <div class="col">
+          <!-- empy col -->
+        </div>
+
+      </div>
+
+      <!-- API maps key form -->
+      <div class="row pt-5">
+
+        <div class="col">
+          <!--empty col-->                        
+        </div>
+
+        <div class="col-4" id="mapsKeys_col">
+          <div class=" container d-flex justify-content-left" id="MK_div">
+            <form action="">
+              <div class="form-group row">
+                <label for="key" class="col col-form-label label-col white_txt">Google Maps Key</label>
+                <div class="col-sm-6 input-col">
+                  <input type="text" class="form-control" placeholder="Enter Google maps key" id="GM_key">
+                </div>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button id="maps_submit_btn" type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col">
+          <!--empty col-->
+        </div>
+
+        <div class="col">
+          <!--empty col-->
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p> Progetto di SWE, anno 2020-2021 | realizzato da: Angela Muzzarelli // Kusamdevi Lal // Robert Burduja // Ilaria Palestini // Simone Sanna </p>
+      </footer>
+    </div>
+  </body>
+</html>
