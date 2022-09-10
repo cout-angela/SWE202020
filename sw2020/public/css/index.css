@@ -1,0 +1,82 @@
+/*BODY*/
+#page_container{
+  position:relative;
+  width:100%;
+  min-height: 100vh;
+}
+body{
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.body_bgd{
+  background-color: #182E58;
+}
+.row{
+  width:100%;
+}
+#empty_row{
+  height: 200px;
+}
+/*NAVBAR*/
+#logo_img{
+  width:5%;
+}
+.navbar{
+  background-color: #00022e;
+}
+
+#pwd{
+  color: rgb(255,255,255);
+}
+#resP{
+  color: rgb(255,100,100);
+}
+.main_btn{
+  width:20%;
+}
+  /* FORMS */
+  form{
+    width: 80%;
+  }
+  #TK_div, #MK_div{
+    margin-right:0;
+    padding-right:0;
+    padding-left:5;
+    margin-left:0;
+  }
+  .label-col{
+    padding-right: 0;
+    margin: 0;
+  }
+  .white_txt{
+    color: white;
+  }
+  .input-col{
+    padding-left:0;
+    margin-left:0;
+    padding-right:0;
+    margin-right:0;
+  }
+  #twitterKeys_col, #mapsKeys_col{
+    justify-content: left;
+    padding-right:0;
+    margin-right:0;
+    padding-left: 0;
+    margin-left:0
+  }
+  
+  #twitter_submit_btn{
+    align-content: center;
+  }
+  /* FOOTER */
+  
+  footer{
+    color: lightgrey;
+    font-size: small;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height:3rem;
+}
