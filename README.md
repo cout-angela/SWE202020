@@ -1,5 +1,5 @@
 # SWE202020
-
+![logo image](/sw2020/public/images/logo.png)
 ## OVERVIEW
 
 Twitter Tracker è una web application pensata per osservare e analizzare trend ed eventi importanti in tempo reale attraverso Twitter. L’applicazione fornisce:
